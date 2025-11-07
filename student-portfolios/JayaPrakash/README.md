@@ -7,7 +7,8 @@
 | **Field** | **Details** |
 |-----------|-------------|
 | **Nickname/Pseudonym** | JP |
-| **Interesting Fact1** | I like drawing and traveling with family & freinds.🚴 |
+| **Interesting Fact** | I like drawing.🚴 |
+| **Interesting Fact2** | I like to traveling with family & freinds.🚴 |
 
 ---
 
