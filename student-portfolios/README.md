@@ -17,7 +17,7 @@ This README is automatically generated and updated when changes are made to stud
 | Chandra | Chandra | Data enthusiast, hobbyist artist and singer.<br>N/A | [View Portfolio](Chandra/README.md) | N/A | <img src="Chandra/IMG_7975.JPG" alt="Chandra with family in Aruba" title="Chandra with family in Aruba" width="150"> |
 | ChrisM | Chris | I am expecting twin girls (fraternal) this Decembe...<br>I am an avid baseball fan (Go Yankees!). I also pl... | [View Portfolio](ChrisM/README.md) | N/A | <img src="ChrisM/image2.jpeg" alt="2024 ALDS Game 2 at Yankee Stadium" title="2024 ALDS Game 2 at Yankee Stadium" width="150"><img src="ChrisM/image1.jpeg" alt="Our Babyshower" title="Our Babyshower" width="150"> |
 | GiteshK | Gitesh | My two passions are road trips and photography.<br>N/A | [View Portfolio](GiteshK/README.md) | N/A | <img src="GiteshK/Family.jpeg" alt="Gitesh - With family on vacation, Pune India" title="Gitesh - With family on vacation, Pune India" width="150"> |
-| JayaPrakash | JP | N/A<br>N/A | [View Portfolio](JayaPrakash/README.md) | N/A | <img src="JayaPrakash/JP_Personal_Photo.jpg" alt="JP - With family" title="JP - With family" width="150"> |
+| JayaPrakash | JP | I like drawing.🚴<br>I like to traveling with family & freinds.🚴 | [View Portfolio](JayaPrakash/README.md) | N/A | <img src="JayaPrakash/JP_Personal_Photo.jpg" alt="JP - With family" title="JP - With family" width="150"> |
 | LukeB | Luke | I have a 3yo Sheepadoodle named Benny.<br>I like playing badminton in my free time. | [View Portfolio](LukeB/README.md) | N/A | <img src="LukeB/PXL_20240522_154604796.PORTRAIT.ORIGINAL~3.jpg" alt="Benny in the flowers" title="Benny in the flowers" width="150"><img src="LukeB/IMG_0878.jpg" alt="Me playing badminton" title="Me playing badminton" width="150"> |
 | Mike.Abbo | Your Nickname | An interesting fact about you<br>Another interesting fact about you | [View Portfolio](Mike.Abbo/README.md) | N/A | <img src="Mike.Abbo/Contessa.jpg" alt="Description" title="Description" width="150"> |
 | MukeshM | Mukesh | Have 25 lb kettleballs thats been lifted number of...<br>probably the only person who Can discuss AI regres... | [View Portfolio](MukeshM/README.md) | N/A | <img src="MukeshM/IMG_8780.JPG" alt="Mukesh - Kettleball" title="Mukesh - Kettleball" width="150"> |
@@ -77,4 +77,4 @@ This README is automatically generated and updated when changes are made to stud
 This README is automatically updated via GitHub Actions whenever any `README.md` file in the student-portfolios folder (or its subfolders) is modified.
 
 ---
-*Last updated: %Y->- (HEAD -> main, origin/main) 701dbab079ae6aef86da078c61467cf0a79e8d29:%M:HEAD*
+*Last updated: %Y->- 6c0599cc7b4a481dfb13abec4ac67fc6c18a766a:%M:HEAD*
