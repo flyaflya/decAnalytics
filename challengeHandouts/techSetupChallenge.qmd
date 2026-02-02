@@ -3,7 +3,6 @@ title: "Tech Setup Challenge"
 subtitle: "Getting Started with Your Analytics Toolkit"
 format: 
   html: default
-  pdf: default
 execute:
   echo: true
   eval: false
