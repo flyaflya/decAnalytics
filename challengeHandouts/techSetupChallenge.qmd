@@ -27,21 +27,22 @@ This challenge will get you set up with many of the essential tools for our Deci
 
 **Configure Git (Required First-Time Setup):**
 
-You need to tell Git who you are. This requires using the **Terminal** (Mac) or **Command Prompt/PowerShell** (Windows):
+You need to tell Git who you are. You'll run the commands below in a **terminal** (a text-based way to interact with your computer—don't worry, you just copy/paste the commands!).
 
-- **What is Terminal/Command Line?** It's a text-based way to interact with your computer. Don't worry - you just need to copy/paste these commands!
-
-- **How to open:**
-  - **Windows:** Press `Win + R`, type `cmd`, press Enter (or search "Command Prompt" in Start menu)
-  - **Mac:** Press `Cmd + Space`, type "Terminal", press Enter
+- **How to open a terminal (easiest first):**
+  - **In Cursor (easiest):** Press `` Ctrl+` `` (backtick key, usually under Esc) or click the terminal icon in the activity bar. Run the commands below there—no need to leave the editor.
+  - **External terminal (alternative):** **Windows:** Press `Win + R`, type `cmd`, press Enter (or search "Command Prompt" in Start menu). **Mac:** Press `Cmd + Space`, type "Terminal", press Enter.
 
 - **Run these commands** (replace with your actual name and email):
   ```bash
   git config --global user.name "Your Name"
   git config --global user.email "your_email@example.com"
   ```
+  **Example:** `git config --global user.name "John Doe"` and `git config --global user.email "johndoe@example.com"`. Use the same email you use for GitHub.
 
-- **Verify setup:** Run `git config --list` to see your configuration
+- **Verify setup:** Run `git config --list` to see your configuration. To confirm Git is installed, run `git --version` (you should see something like `git version 2.x.x`).
+
+- **Windows users (optional):** When installing Git, at "Line ending conversion" choose **"Checkout as-is, commit Unix-style line endings"** (recommended)—helps avoid line-ending issues later.
 
 ### 2. 📝 Cursor AI Setup
 
@@ -202,6 +203,7 @@ You've completed the tech setup challenge! Check the checklist below to make sur
 
 ##  Quick Git Basics
 
+- **Terminal** = `` Ctrl+` `` - Open the integrated terminal (backtick key, usually under Esc)
 - **Save** = `Ctrl+S` - Save current file to disk (do this frequently!)
 - **Commit** = Save your changes to Git history so you can go back to these files at this instant in time - do often as AI will gladly mess up your files and give you an unrecoverable mess on your hands
 - **Push** = Upload to GitHub
@@ -209,6 +211,13 @@ You've completed the tech setup challenge! Check the checklist below to make sur
 - **Fork** = Your copy of the original repo
 
 **💡 Pro Tip:** Save files frequently (`Ctrl+S`) and commit your work (`Ctrl+Shift+G` → stage → commit) after completing each major step. This way, if something goes wrong, you can always recover your work!
+
+## 🆘 Troubleshooting
+
+- **"Git is not recognized"** – Install Git, then fully restart Cursor so PATH is picked up. Use the integrated terminal (`` Ctrl+` ``) rather than an external terminal.
+- **PowerShell execution policy (Windows):** If you get an execution policy error when running scripts (e.g. later in the course), in PowerShell run:  
+  `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`  
+  Type `Y` when prompted. This allows locally created scripts to run (safe default).
 
 ## 🆘 Need Help?
 
