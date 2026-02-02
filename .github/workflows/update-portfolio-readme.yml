@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'student-portfolios/**/README.md'
+      - 'student-portfolios/generate_portfolio_readme.py'
+      - 'student-portfolios/student_github_mapping.json'
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
@@ -29,13 +31,14 @@ jobs:
         cd student-portfolios
         python generate_portfolio_readme.py
     
-    - name: Check if README was modified
+    - name: Check if README was modified or created
       id: check-changes
       run: |
-        if git diff --quiet student-portfolios/README.md; then
-          echo "changes=false" >> $GITHUB_OUTPUT
-        else
+        # Detect both modified and untracked (new) README - git diff ignores untracked files
+        if [ -n "$(git status --porcelain student-portfolios/README.md)" ]; then
           echo "changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
         fi
     
     - name: Commit and push changes

@@ -48,6 +48,15 @@ def extract_student_info(readme_path: Path) -> Dict[str, str]:
     if fact2_match:
         info['fact2'] = fact2_match.group(1).strip()
     
+    # Extract GitHub username (optional) - accept "GitHub" or "GitHub Username", with or without @
+    github_match = re.search(
+        r'\*\*GitHub(?:\s+Username)?\*\*\s*\|\s*@?([^\s|]+)\s*\|',
+        content,
+        re.IGNORECASE
+    )
+    if github_match:
+        info['github_username'] = github_match.group(1).strip()
+    
     # Extract student name from folder name
     info['folder_name'] = readme_path.parent.name
     
@@ -145,8 +154,23 @@ def generate_portfolio_readme(portfolio_dir: Path) -> str:
     # Sort students alphabetically by folder name
     students.sort(key=lambda x: x['folder_name'])
     
+    # Get timestamp for footer (use %ci to avoid % placeholders being mangled by shells)
+    try:
+        import subprocess
+        result = subprocess.run(
+            ['git', 'log', '-1', '--format=%ci', '--', '.'],
+            capture_output=True, text=True, cwd=portfolio_dir, timeout=5
+        )
+        if result.returncode == 0 and result.stdout:
+            # %ci is ISO 8601 e.g. "2025-02-02 12:34:56 +0000" -> take first 19 chars
+            last_updated = result.stdout.strip()[:19]
+        else:
+            last_updated = 'Unknown'
+    except Exception:
+        last_updated = 'Unknown'
+
     # Generate the README content
-    content = """# 👨‍🎓 Student Portfolios
+    content = f"""# 👨‍🎓 Student Portfolios
 
 Welcome to the Decision Analytics Student Portfolio Collection!
 
@@ -171,8 +195,8 @@ This README is automatically generated and updated when changes are made to stud
         # Combine facts for display
         facts_display = f"{fact1_short}<br>{fact2_short}"
         
-        # Generate GitHub link
-        github_username = github_mappings.get(folder_name)
+        # Generate GitHub link: prefer value from student's README, else mapping file
+        github_username = student.get('github_username') or github_mappings.get(folder_name)
         if github_username:
             github_link = f"[@{github_username}](https://github.com/{github_username})"
         else:
@@ -214,6 +238,7 @@ This README is automatically generated and updated when changes are made to stud
 | **Nickname/Pseudonym** | Your Nickname |
 | **Interesting Fact** | An interesting fact about you |
 | **Interesting Fact2** | Another interesting fact about you |
+| **GitHub Username** | Your GitHub username (e.g. octocat) — used for the GitHub link in the table |
 
 ---
 
@@ -231,7 +256,7 @@ This README is automatically generated and updated when changes are made to stud
 This README is automatically updated via GitHub Actions whenever any `README.md` file in the student-portfolios folder (or its subfolders) is modified.
 
 ---
-*Last updated: {os.popen('git log -1 --format="%Y-%m-%d %H:%M:%S" -- .').read().strip() or 'Unknown'}*
+*Last updated: {last_updated}*
 """
     
     return content
