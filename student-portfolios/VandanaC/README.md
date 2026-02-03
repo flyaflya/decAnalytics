@@ -6,7 +6,7 @@
 
 | **Field** | **Details** |
 |-----------|-------------|
-| **Nickname/Pseudonym** | Vandana |
+| **Nickname/Pseudonym** | Vandana C |
 | **Interesting Fact** | I speak German and have started teaching German this sem at udel.|
 | **Interesting Fact2** | I like sky diving and I want to become a certified sky diver in the future🚴 |
 | **GitHub Username** |vchiluka22 |
