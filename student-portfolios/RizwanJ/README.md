@@ -19,6 +19,6 @@
 ![Medals](IMG_1289.JPG)
 
 ### Personal Photo
-![In Maine somewhere on a mountain](IMG_7279)
+![In Maine somewhere on a mountain](IMG_7279.jpg)
 
 
