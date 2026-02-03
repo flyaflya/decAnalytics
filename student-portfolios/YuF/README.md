@@ -15,10 +15,10 @@
 
 ## 🖼️ Portfolio Images
 
-### Personal Photo.
-![I climbed Mount Laozhai, located in Guilin, China.](Yu_Fu_Mount_Laozhai.jpg)
+### Personal Photo- I climbed Mount Laozhai, located in Guilin, China.
+![Yu_Fu_Mount_Laozhai.jpg](Yu_Fu_Mount_Laozhai.jpg)
 
-### Bambi
-![Cute Photo of My Dog Bambi](Bambi.jpg)
+### Photo of cute Bambi
+![Bambi.jpg](Bambi.jpg)
 
 
