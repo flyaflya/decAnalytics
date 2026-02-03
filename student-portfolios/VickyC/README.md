@@ -16,9 +16,9 @@
 ## 🖼️ Portfolio Images
 
 ###  Beach with snow
-![beach with snow after snow storm](/Users/yao/decAnalytics/student-portfolios/VickyC/beach with snow.JPG)
+![beach with snow after snow storm](VickyC/beach with snow.JPG)
 
 ### Beautiful mountain
-![Sunlit Golden Mountain](/Users/yao/decAnalytics/student-portfolios/VickyC/Sunlit Golden Mountain.jpg)
+![Sunlit Golden Mountain](VickyC/Sunlit Golden Mountain.jpg)
 
 
