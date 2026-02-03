@@ -15,7 +15,7 @@
 
 ## 🖼️ Portfolio Images
 
-### My Favorite Sport
+### My Favorite Sport.
 ![Volleyball](volleyball.png)
 
 ### Personal Photo
