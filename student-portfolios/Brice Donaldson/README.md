@@ -15,10 +15,10 @@
 
 ## 🖼️ Portfolio Images
 
-### My Invention: The Invisible Pool Toy
+### My View for the 2025 Monster Mile in Dover
 ![Image From The 2025 Monster Mile](2025_Monster_Mile.jpg)
 
-### Personal Photo
+### Trail Hiking On the West Coast
 ![Hiking Cape Falcon In Oregon](Cape_falcon.jpg)
 
 
