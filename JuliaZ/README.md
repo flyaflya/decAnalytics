@@ -16,9 +16,9 @@
 ## 🖼️ Portfolio Images
 
 ### At my daughter's Pre-K graduation
-![Graduation - Daycare](Graduation-1.jpg)
+![Graduation - Daycare](Graduation-1.JPG)
 
 ### A photo I took at home for my daughter when she graduated from Pre-K
-![Graduation - Home](Graduation-2.jpg)
+![Graduation - Home](Graduation-2.jpeg)
 
 
