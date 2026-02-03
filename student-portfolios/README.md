@@ -13,6 +13,7 @@ This README is automatically generated and updated when changes are made to stud
 | CormacZ | Cormac | Started practicing Kendo recently<br>Have been trying to learn guitar for a while now | [View Portfolio](CormacZ/README.md) | [@ShayCormac39](https://github.com/ShayCormac39) | <img src="CormacZ/Bronco.jpg" alt="Bronco" title="Bronco" width="150"><img src="CormacZ/ESP-MB-7.jpg" alt="ESPMB7" title="ESPMB7" width="150"> |
 | NoahE | Noah | Avid Magic: The Gathering Player<br>3D Printing Hobbyist | [View Portfolio](NoahE/README.md) | [@Heenlenxe](https://github.com/Heenlenxe) | <img src="NoahE/RenFaire.jpg" alt="Ren Faire" title="Ren Faire" width="150"><img src="NoahE/3DPrints.jpg" alt="3D Prints" title="3D Prints" width="150"> |
 | RizwanJ | Rizz | I have been the fastest sprinter in my college wit...<br>I love to be an explorer and visit mountains for f... | [View Portfolio](RizwanJ/README.md) | [@rizwanjamal31](https://github.com/rizwanjamal31) | <img src="RizwanJ/IMG_1289.JPG" alt="Medals" title="Medals" width="150"><img src="RizwanJ/IMG_7279.jpg" alt="In Maine somewhere on a mountain" title="In Maine somewhere on a mountain" width="150"> |
+| Tingting Zhu | Tingting | Everytime I say "nothing would go wrong" it does.<br>I use chatgpt check almost for everything, even wi... | [View Portfolio](Tingting Zhu/README.md) | [@ttzhu123](https://github.com/ttzhu123) | <img src="Tingting Zhu/tingtingzhu2.png" alt="My 2 kids" title="My 2 kids" width="150"><img src="Tingting Zhu/tingtingzhu.png" alt="with my daughter" title="with my daughter" width="150"> |
 
 ## 🆕 How to Add Your Portfolio
 
@@ -49,4 +50,4 @@ This README is automatically generated and updated when changes are made to stud
 This README is automatically updated via GitHub Actions whenever any `README.md` file in the student-portfolios folder (or its subfolders) is modified.
 
 ---
-*Last updated: 2026-02-02 20:42:37*
+*Last updated: 2026-02-02 20:43:55*
