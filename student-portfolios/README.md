@@ -20,6 +20,7 @@ This README is automatically generated and updated when changes are made to stud
 | VandanaC | Vandana C | I speak German and have started teaching German th...<br>I like sky diving and I want to become a certified... | [View Portfolio](VandanaC/README.md) | [@vchiluka22](https://github.com/vchiluka22) | <img src="VandanaC/Skydiving.jpeg" alt="Skydiving" title="Skydiving" width="150"> |
 | VickyC | Vicky | I like snorkeling but I am not good at swimming.<br>I grew in a southern city and few days ago I exper... | [View Portfolio](VickyC/README.md) | [@ChuyingCai](https://github.com/ChuyingCai) | <img src="VickyC/beach_with_snow.JPG" alt="beach with snow after snow storm" title="beach with snow after snow storm" width="150"><img src="VickyC/Sunlit_Golden_Mountain.jpg" alt="Sunlit Golden Mountain" title="Sunlit Golden Mountain" width="150"> |
 | YuF | Yu | I enjoy travelling and photography.I have visited ...<br>I have a cat and a Havapoo dog. | [View Portfolio](YuF/README.md) | [@yufish0113](https://github.com/yufish0113) | <img src="YuF/Yu_Fu_Mount_Laozhai.jpg" alt="Yu_Fu_Mount_Laozhai.jpg" title="Yu_Fu_Mount_Laozhai.jpg" width="150"><img src="YuF/Bambi.jpg" alt="Bambi.jpg" title="Bambi.jpg" width="150"> |
+| khadija | Dija | Travelled around 26 countries<br>I like to run and bike around parks | [View Portfolio](khadija/README.md) | [@KhadijaB](https://github.com/KhadijaB) | <img src="khadija/20211019_084657.jpg" alt="A morning in Helsinki" title="A morning in Helsinki" width="150"><img src="khadija/20211018_084806.jpg" alt="Port in Sweden" title="Port in Sweden" width="150"> |
 
 ## 🆕 How to Add Your Portfolio
 
@@ -56,4 +57,4 @@ This README is automatically generated and updated when changes are made to stud
 This README is automatically updated via GitHub Actions whenever any `README.md` file in the student-portfolios folder (or its subfolders) is modified.
 
 ---
-*Last updated: 2026-02-02 20:56:47*
+*Last updated: 2026-02-06 09:42:23*
