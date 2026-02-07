@@ -1,4 +1,4 @@
-# 👨‍🎓 Student Portfolio - Adam F. 🚴
+# 👨‍🎓 Student Portfolio - Krishnendu Nandakumar Padmapriya 🚴
 
 ---
 
