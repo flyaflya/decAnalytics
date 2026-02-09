@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.Rproj.user
+*.sublime-*
+
+# Optional: uncomment to ignore Quarto source if you only want to publish the built site
+# *.qmd
