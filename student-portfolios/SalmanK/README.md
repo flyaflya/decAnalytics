@@ -1,4 +1,4 @@
-# 👨‍🎓 Student Portfolio - Adam F. 🚴
+# 👨‍🎓 Student Portfolio - SalmanK. 🚴
 
 ---
 
@@ -6,19 +6,19 @@
 
 | **Field** | **Details** |
 |-----------|-------------|
-| **Nickname/Pseudonym** | Adam |
-| **Interesting Fact** | Inventor of "The Invisible Pool Toy" - I hold a patent for it. |
-| **Interesting Fact2** | I like biking in cities and on gravel rail trails.🚴 |
-| **GitHub Username** | flyaflya |
+| **Nickname/Pseudonym** | Salman |
+| **Interesting Fact** | I Love Travelling, I Have Been To 30 U.S States In a Year |
+| **Interesting Fact2** | I Love Aerplanes, Keep Researching About Them |
+| **GitHub Username** | SalmanK |
 
 ---
 
 ## 🖼️ Portfolio Images
 
-### My Invention: The Invisible Pool Toy
-![The Invisible Pool Toy](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpU-_uS7d7czuDb5wBpTui3ahBAFzJAIMpJA&s)
+### One Of Picture I Captured While Driving In Arizona
+![Arizona Road](LONG_ROAD.jpg)
 
-### Personal Photo
-![Adam - With family on the Rehoboth-Lewes Beach Bike Trail](IMG_1783.png)
+### Me
+![My Photo](Img001.jpg)
 
 
